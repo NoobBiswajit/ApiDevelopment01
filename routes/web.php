@@ -13,7 +13,13 @@
 |
 */
 
-$router->get('/details', 'StudentDetails@AllData');
-$router->post('/details', 'StudentDetails@InserData');
-$router->delete('/details', 'StudentDetails@DeleteData');
-$router->put('/details', 'StudentDetails@UpdateData');
+// $router->get('/details', 'StudentDetails@AllData');
+// $router->post('/details', 'StudentDetails@InserData');
+// $router->delete('/details', 'StudentDetails@DeleteData');
+// $router->put('/details', 'StudentDetails@UpdateData');
+
+
+// $router->get('/query','BuilderController@AllData');
+// $router->get('/query','BuilderController@FindData');
+// $router->get('/query','BuilderController@WhareData');
+$router->get('/query','BuilderController@PulkData');
